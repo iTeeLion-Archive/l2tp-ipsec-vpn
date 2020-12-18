@@ -1,0 +1,14 @@
+#debug
+name vpn_l2tp
+auth
+lock
+modem
+crtscts
+proxyarp
+asyncmap 0
+hide-password
+ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+require-mschap-v2
+lcp-echo-failure 4
+lcp-echo-interval 30

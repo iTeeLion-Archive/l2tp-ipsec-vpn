@@ -1,6 +1,23 @@
 # L2TP/IPSEC PSK VPN install, configure and control script
 Once I asked myself: dude, how to install and configure a VPN server? That night I will never forget. Long and tedious reading of the documentation and tons of Google requests, yeah that's was hard! Then I decided to make an automatic script for installing configuration and management for myself and you.
 
+## Requirements
+I tested this script on Debian 10, but it's may be adapted for many linux distros.
+#### Default packages: (Debian 10)
+Package name | Why needed
+------------ | -------------
+apt | To install packages
+mc | To edit config files
+wget | To download preconfigured config files
+#### Another packages and distros
+You may specify using packages like that:
+```
+#!/bin/bash
+E="nano"
+PM="yum"
+```
+For example: change `mcedit` to `nano` or `vim` or change `apt` to `yum` for use on CentOS
+
 ## How to use
 Just download vpn.sh file:
 ```

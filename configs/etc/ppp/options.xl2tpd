@@ -1,14 +1,22 @@
 #debug
-name vpn_l2tp
+name l2tp_ipsec_vpn
 auth
 lock
 modem
+noipx
 crtscts
 proxyarp
-asyncmap 0
+multilink
+mppe-stateful
 hide-password
-ms-dns 8.8.8.8
-ms-dns 8.8.4.4
+refuse-pap
+refuse-chap
+refuse-mschap
 require-mschap-v2
+mtu 1400
+asyncmap 0
 lcp-echo-failure 4
 lcp-echo-interval 30
+ms-dns 8.8.8.8
+ms-dns 1.1.1.1
+ms-dns 77.88.8.8

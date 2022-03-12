@@ -2,8 +2,8 @@
 Once I asked myself: dude, how to install and configure a VPN server? That night I will never forget. Long and tedious reading of the documentation and tons of Google requests, yeah that's was hard! Then I decided to make an automatic script for installing configuration and management for myself and you.
 
 ## Requirements
-I tested this script on Debian 10, but it's may be adapted for many linux distros.
-#### Default packages: (Debian 10)
+I tested this script on Debian 10/11, but it's may be adapted for many linux distros.
+#### Default packages: (Debian 10/11)
 Package name | Why needed
 ------------ | -------------
 apt | To install packages
@@ -70,7 +70,7 @@ Stop:
 Однажды я задолбался конфигурировать VPN серверы вручную и решил сделать скрипт для автоматического разворачивания всего необходимого в минимальном виде
 
 ## Требования
-Я проверял скрипт только под Debian 10, но думаю это без труда заработает и в других дистрибутивах.
+Я проверял скрипт только под Debian 10/11, но думаю это без труда заработает и в других дистрибутивах.
 
 #### Another packages and distros
 В скрипте можно настроить используемые пакеты

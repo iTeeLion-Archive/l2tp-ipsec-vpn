@@ -27,6 +27,10 @@ or
 ```
 curl https://raw.githubusercontent.com/iTeeLion/l2tp-ipsec-vpn/master/vpn.sh --output vpn.sh
 ```
+and
+```
+chmod -x ./vpn.sh
+```
 
 ## How to install/remove vpn server
 To install:
@@ -89,6 +93,10 @@ wget https://raw.githubusercontent.com/iTeeLion/l2tp-ipsec-vpn/master/vpn.sh
 или через curl
 ```
 curl https://raw.githubusercontent.com/iTeeLion/l2tp-ipsec-vpn/master/vpn.sh --output vpn.sh
+```
+и даем права на исполнение
+```
+chmod -x ./vpn.sh
 ```
 
 ## Как установить и сконфигурировать VPN L2TP IPSEC PSK сервер

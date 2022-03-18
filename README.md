@@ -9,6 +9,7 @@ Package name | Why needed
 apt | To install packages
 mc | To edit config files
 wget | To download preconfigured config files
+iptables | Allow/Disallow trafic
 #### Another packages and distros
 You may specify using packages like that:
 ```
